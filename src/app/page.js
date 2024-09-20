@@ -1,5 +1,6 @@
 import About from "./Components/About";
 import Hero from "./Components/Hero";
+import WhyChooseUs from "./Components/WhyChooseUs";
 import Nav from "./Shared/Nav";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <main className="">
         <Hero />
         <About/>
+        <WhyChooseUs/>
       </main>
     </div>
   );
