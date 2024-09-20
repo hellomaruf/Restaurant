@@ -26,7 +26,7 @@ function Hero() {
       >
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero min-h-screen rounded-b-3xl"
             style={{
               backgroundImage: `url('https://i.postimg.cc/dtGbPYx0/HeroBg1.png')`,
             }}
@@ -118,7 +118,7 @@ function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero min-h-screen rounded-b-3xl"
             style={{
               backgroundImage: `url('https://i.postimg.cc/43trQTRt/HeroBg2.png')`,
             }}
@@ -210,7 +210,7 @@ function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero min-h-screen rounded-b-3xl"
             style={{
               backgroundImage: `url('https://i.postimg.cc/0Nb7T8yM/HeroBg3.png')`,
             }}
@@ -302,7 +302,7 @@ function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="hero min-h-screen"
+            className="hero min-h-screen rounded-b-3xl"
             style={{
               backgroundImage: `url('https://i.postimg.cc/W1YtBCzh/HeroBg4.png')`,
             }}
