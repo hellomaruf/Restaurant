@@ -4,7 +4,7 @@ import feedbackImg from "../assets/feedbackImg.png";
 import profile from "../assets/profile.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay} from 'swiper/modules';
+import { Autoplay } from "swiper/modules";
 
 function Feedback() {
   return (
@@ -12,13 +12,14 @@ function Feedback() {
       <div className="grid grid-cols-7 gap-6 justify-between items-center">
         <div className="col-span-4 space-y-4">
           <h1 className="text-4xl font-semibold">Customer Feedback</h1>
-          <Swiper 
-           autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          modules={[Autoplay]}
-          className="mySwiper">
+          <Swiper
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
+            className="mySwiper"
+          >
             <SwiperSlide>
               <div className="space-y-4">
                 <p>
@@ -77,7 +78,7 @@ function Feedback() {
             <SwiperSlide>
               <div className="space-y-4">
                 <p>
-                I recently dined at your restaurant and wanted to share my
+                  I recently dined at your restaurant and wanted to share my
                   experience. The food was absolutely delicious, and I was
                   impressed by the freshness of the ingredients. Each dish was
                   bursting with flavor, and the portion sizes were perfect. The

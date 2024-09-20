@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Rate } from 'antd';
+import { Rate } from "antd";
 
 function BestSellerDishes() {
   const bestDishesData = [
@@ -56,7 +56,7 @@ function BestSellerDishes() {
       </div>
       <div className="grid grid-cols-3 gap-6 mt-10">
         {bestDishesData?.map((item, index) => (
-          <div className='shadow rounded-b-xl' key={index}>
+          <div className="shadow rounded-b-xl" key={index}>
             <div>
               <Image
                 src={item?.img}
@@ -66,17 +66,21 @@ function BestSellerDishes() {
                 className="pb-2"
               />
             </div>
-            <div className="p-4">
+            <div className="p-4 py-6">
               <div className="flex justify-between items-center">
                 <h3 className="text-[20px] font-medium">{item?.disheName}</h3>
                 <button className="bg-[#F03328] text-white py-1 rounded-full px-4">
                   Buy Now
                 </button>
-                    </div>
-                    <div className="flex items-center justify-between mt-4">
-                    <Rate className='text-lg' disabled defaultValue={item?.rating} />
-                        <h3 className='text-xl font-semibold'>${ item?.price}</h3>
-                    </div>
+              </div>
+              <div className="flex items-center justify-between mt-4">
+                <Rate
+                  className="text-lg"
+                  disabled
+                  defaultValue={item?.rating}
+                />
+                <h3 className="text-xl font-semibold">${item?.price}</h3>
+              </div>
             </div>
           </div>
         ))}
