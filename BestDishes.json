@@ -1,0 +1,39 @@
+[
+    {
+      "disheName": "Breakfast Food",
+      "img": "https://i.postimg.cc/YCcF3vV9/seller-Dishe1.png",
+      "price": 12.99,
+      "rating": 4.8
+    },
+    {
+      "disheName": "Health Breakfast",
+      "img": "https://i.postimg.cc/VNgbmDNr/seller-Dishe2.png",
+      "price": 15.50,
+      "rating": 4.7
+    },
+    {
+      "disheName": "Breakfast Food",
+      "img": "https://i.postimg.cc/V6N06nS7/seller-Dishe3.png",
+      "price": 10.99,
+      "rating": 4.5
+    },
+    {
+      "disheName": "Caesar Salad",
+      "img": "https://i.postimg.cc/RFb6nhKv/seller-Dishe4.png",
+      "price": 8.25,
+      "rating": 4.3
+    },
+    {
+      "disheName": "Beef Burger",
+      "img": "https://i.postimg.cc/NGS2syQ4/seller-Dishe5.png",
+      "price": 13.75,
+      "rating": 4.6
+    },
+    {
+      "disheName": "Sushi Platter",
+      "img": "https://i.postimg.cc/wjdtNSyR/seller-Dishe6.png",
+      "price": 22.99,
+      "rating": 4.9
+    }
+  ]
+  
