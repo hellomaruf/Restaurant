@@ -1,13 +1,12 @@
-import Image from "next/image";
+import Hero from "./Components/Hero";
+import Nav from "./Shared/Nav";
 
 export default function Home() {
   return (
     <div className="">
       <main className="">
-   hello world
-
+        <Hero />
       </main>
-
     </div>
   );
 }
