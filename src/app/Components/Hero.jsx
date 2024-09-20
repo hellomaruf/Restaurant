@@ -10,12 +10,12 @@ import heroimg1 from "../assets/heroImg1.png";
 import heroimg2 from "../assets/heroImg2.png";
 import heroimg3 from "../assets/heroImg3.png";
 import heroimg4 from "../assets/heroImg4.png";
-import 'swiper/css/effect-fade';
+import "swiper/css/effect-fade";
 import { Autoplay, EffectFade } from "swiper/modules";
 
 function Hero() {
   return (
-    <div>
+    <div className='-z-10 relative -top-12'>
       <Swiper
         autoplay={{
           delay: 2500,
