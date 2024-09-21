@@ -41,7 +41,7 @@ function NewsAndBlog() {
           </div>
       <div className="grid grid-cols-3 gap-4 mt-10">
         {newsAndBlogData?.map((item, index) => (
-          <div className="shadow-lg" key={index}>
+          <div className="shadow-lg rounded-lg" key={index}>
             <div className="p-4">
               <Image
                 src={item?.img}

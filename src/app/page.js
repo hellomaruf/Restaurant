@@ -6,6 +6,7 @@ import NewsAndBlog from "./Components/NewsAndBlog";
 import Team from "./Components/Team";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import Work from "./Components/Work";
+import Clients from './Components/Clients';
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Team/>
         <Work />
         <NewsAndBlog/>
+        <Clients/>
       </main>
     </div>
   );
