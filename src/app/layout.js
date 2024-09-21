@@ -1,7 +1,9 @@
+
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Nav from "./Shared/Nav";
 import Footer from "./Shared/Footer";
+
 
 export const metadata = {
   title: "Restaurant",

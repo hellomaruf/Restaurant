@@ -10,7 +10,7 @@ function Work() {
     <div className="max-w-5xl mx-auto">
       <h1 className="text-4xl font-semibold text-center">How does it work</h1>
       <div className="grid grid-cols-4 gap-4 mt-10">
-        <div className=" text-center border-2 rounded-xl p-6 space-y-2">
+        <div data-aos="fade-up" className=" text-center border-2 rounded-xl p-6 space-y-2">
           <div className="flex items-center justify-center">
             <Image
               src={workImg1}
@@ -26,7 +26,7 @@ function Work() {
           </p>
           <button className="font-semibold hover:text-[#F03328]">Learn More</button>
         </div>
-        <div className=" text-center border-2 rounded-xl p-6 space-y-2">
+        <div data-aos="fade-down" className=" text-center border-2 rounded-xl p-6 space-y-2">
           <div className="flex items-center justify-center">
             <Image
               src={workImg2}
@@ -42,7 +42,7 @@ function Work() {
           </p>
           <button className="font-semibold hover:text-[#F03328]">Learn More</button>
         </div>
-        <div className=" text-center border-2 rounded-xl p-6 space-y-2">
+        <div data-aos="fade-up" className=" text-center border-2 rounded-xl p-6 space-y-2">
           <div className="flex items-center justify-center">
             <Image
               src={workImg3}
@@ -58,7 +58,7 @@ function Work() {
           </p>
           <button className="font-semibold hover:text-[#F03328]">Learn More</button>
         </div>
-        <div className=" text-center border-2 rounded-xl p-6 space-y-2">
+        <div data-aos="fade-down" className=" text-center border-2 rounded-xl p-6 space-y-2">
           <div className="flex items-center justify-center">
             <Image
               src={workImg4}

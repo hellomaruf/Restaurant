@@ -10,7 +10,7 @@ function Feedback() {
   return (
     <div className="max-w-5xl mx-auto mt-28">
       <div className="grid grid-cols-7 gap-6 justify-between items-center">
-        <div className="col-span-4 space-y-4">
+        <div data-aos="fade-right" className="col-span-4 space-y-4">
           <h1 className="text-4xl font-semibold">Customer Feedback</h1>
           <Swiper
             autoplay={{
@@ -105,7 +105,7 @@ function Feedback() {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="col-span-3">
+        <div data-aos="fade-up"  className="col-span-3">
           <Image
             src={feedbackImg}
             alt="Description of image"

@@ -9,7 +9,7 @@ function WhyChooseUs() {
   return (
     <div className="max-w-5xl mx-auto mt-28">
       <div className="grid grid-cols-2 gap-10">
-        <div className="">
+        <div data-aos="fade-right" className="">
           <Image
             src={leftImg}
             alt="Description of image"
@@ -18,7 +18,7 @@ function WhyChooseUs() {
             className="pb-2"
           />
         </div>
-        <div className="">
+        <div data-aos="fade-left" className="">
           <div className="">
             <h1 className="text-4xl font-semibold">Why People Choose us?</h1>
           </div>
