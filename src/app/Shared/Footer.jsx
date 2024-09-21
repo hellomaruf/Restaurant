@@ -30,7 +30,7 @@ function Footer() {
                       placeholder="Email"
                     />
                   </label>
-                  <div className="bg-red-300 btn border-none rounded-l-none h-full text-white">
+                  <div className="bg-[#A52A2A] btn border-none rounded-l-none h-full text-white">
                     <FaTelegramPlane />
                   </div>
                 </div>
