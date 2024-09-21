@@ -45,7 +45,7 @@ function NewsAndBlog() {
             <div className="p-4">
               <Image
                 src={item?.img}
-                alt="Description of image"
+                alt=""
                 width={500}
                 height={200}
                 className="pb-4"
