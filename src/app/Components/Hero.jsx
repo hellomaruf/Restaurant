@@ -36,7 +36,7 @@ function Hero() {
           >
             <div className="grid grid-cols-2 justify-end  gap-4 max-w-[1350px] mx-auto my-20">
               <div className="space-y-2">
-                <h1 className="text-6xl text-white font-semibold">BREAKFAST</h1>
+                <h1 className="text-6xl text-white font-semibold sanchez-font">BREAKFAST</h1>
                 <p className="text-white">
                   Breakfast, often referred to as the ‘most important meal of
                   the day’, provides essential nutrients to kick start our day.
@@ -128,7 +128,7 @@ function Hero() {
           >
             <div className="grid grid-cols-2 justify-end  gap-4 max-w-[1350px] mx-auto my-20">
               <div className="space-y-2">
-                <h1 className="text-6xl text-white font-semibold">BREAKFAST</h1>
+                <h1 className="text-6xl text-white font-semibold sanchez-font">BREAKFAST</h1>
                 <p className="text-white">
                   Breakfast, often referred to as the ‘most important meal of
                   the day’, provides essential nutrients to kick start our day.
@@ -220,7 +220,7 @@ function Hero() {
           >
             <div className="grid grid-cols-2 justify-end  gap-4 max-w-[1350px] mx-auto my-20">
               <div className="space-y-2">
-                <h1 className="text-6xl text-white font-semibold">BREAKFAST</h1>
+                <h1 className="text-6xl text-white font-semibold sanchez-font">BREAKFAST</h1>
                 <p className="text-white">
                   Breakfast, often referred to as the ‘most important meal of
                   the day’, provides essential nutrients to kick start our day.
@@ -312,7 +312,7 @@ function Hero() {
           >
             <div className="grid grid-cols-2 justify-end  gap-4 max-w-[1350px] mx-auto my-20">
               <div className="space-y-2">
-                <h1 className="text-6xl text-white font-semibold">BREAKFAST</h1>
+                <h1 className="text-6xl text-white font-semibold sanchez-font">BREAKFAST</h1>
                 <p className="text-white">
                   Breakfast, often referred to as the ‘most important meal of
                   the day’, provides essential nutrients to kick start our day.
@@ -419,7 +419,7 @@ function Hero() {
           >
             <div className="grid grid-cols-1 justify-end  gap-4 max-w-[1350px] mx-auto px-6 py-6">
               <div className="space-y-2">
-                <h1 className="text-6xl text-white font-semibold">BREAKFAST</h1>
+                <h1 className="text-5xl text-white font-semibold sanchez-font">BREAKFAST</h1>
                 <p className="text-white">
                   Breakfast, often referred to as the ‘most important meal of
                   the day’, provides essential nutrients to kick start our day.
@@ -493,7 +493,7 @@ function Hero() {
           >
             <div className="grid grid-cols-1 justify-end  gap-4 max-w-[1350px] mx-auto px-6 py-6">
               <div className="space-y-2">
-                <h1 className="text-6xl text-white font-semibold">BREAKFAST</h1>
+                <h1 className="text-5xl text-white font-semibold sanchez-font">BREAKFAST</h1>
                 <p className="text-white">
                   Breakfast, often referred to as the ‘most important meal of
                   the day’, provides essential nutrients to kick start our day.
@@ -564,7 +564,7 @@ function Hero() {
           >
             <div className="grid grid-cols-1 justify-end  gap-4 max-w-[1350px] mx-auto px-6 py-6">
               <div className="space-y-2">
-                <h1 className="text-6xl text-white font-semibold">BREAKFAST</h1>
+                <h1 className="text-5xl text-white font-semibold sanchez-font">BREAKFAST</h1>
                 <p className="text-white">
                   Breakfast, often referred to as the ‘most important meal of
                   the day’, provides essential nutrients to kick start our day.
@@ -633,7 +633,7 @@ function Hero() {
           >
             <div className="grid grid-cols-1 justify-end  gap-4 max-w-[1350px] mx-auto px-6 py-6">
               <div className="space-y-2">
-                <h1 className="text-6xl text-white font-semibold">BREAKFAST</h1>
+                <h1 className="text-5xl text-white font-semibold sanchez-font">BREAKFAST</h1>
                 <p className="text-white">
                   Breakfast, often referred to as the ‘most important meal of
                   the day’, provides essential nutrients to kick start our day.

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sanchez-font {
+    font-family: 'Sanchez', serif;
+  }
