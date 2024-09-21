@@ -82,7 +82,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="">
+            <div className="hidden md:block">
               <h3 className="text-lg font-semibold text-white">
                 Instagram Gallery
               </h3>
@@ -99,11 +99,11 @@ function Footer() {
           </div>
         </div>
         <div className="bg-[#A52A2A]">
-          <div className=" flex items-center max-w-6xl mx-auto py-4 justify-between	text-sm">
-            <div className="text-gray-200">
+          <div className=" flex-col md:flex-row flex items-center max-w-6xl mx-auto py-4 justify-between	text-sm ">
+            <div className="text-gray-200 text-center">
               <p>Copyright © 2024. All rights reserved</p>
             </div>
-            <div className="flex items-center gap-3 text-gray-200">
+            <div className="hidden md:flex items-center gap-3 text-gray-200  md:block">
               <a>Privacy Policy</a>
               <a>Term of Use</a>
               <a>Partner</a>

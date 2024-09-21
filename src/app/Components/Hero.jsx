@@ -18,7 +18,7 @@ function Hero() {
   return (
     <div className=''>
       {/* For large device */}
-    <div className='-z-10 relative -top-12 hidden lg:block'>
+    <div className='-z-10 relative -top-12 hidden lg:block '>
       <Swiper
         autoplay={{
           delay: 2500,
@@ -29,7 +29,7 @@ function Hero() {
       >
         <SwiperSlide>
           <div
-            className="hero min-h-screen rounded-b-3xl"
+            className="hero min-h-screen rounded-b-3xl px-6"
             style={{
               backgroundImage: `url('https://i.postimg.cc/dtGbPYx0/HeroBg1.png')`,
             }}
@@ -121,7 +121,7 @@ function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="hero min-h-screen rounded-b-3xl"
+            className="hero min-h-screen rounded-b-3xl px-6"
             style={{
               backgroundImage: `url('https://i.postimg.cc/43trQTRt/HeroBg2.png')`,
             }}
@@ -213,7 +213,7 @@ function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="hero min-h-screen rounded-b-3xl"
+            className="hero min-h-screen rounded-b-3xl px-6"
             style={{
               backgroundImage: `url('https://i.postimg.cc/0Nb7T8yM/HeroBg3.png')`,
             }}
@@ -305,7 +305,7 @@ function Hero() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            className="hero min-h-screen rounded-b-3xl"
+            className="hero min-h-screen rounded-b-3xl px-6"
             style={{
               backgroundImage: `url('https://i.postimg.cc/W1YtBCzh/HeroBg4.png')`,
             }}

@@ -11,17 +11,20 @@ function Team() {
           backgroundImage: `url('https://i.postimg.cc/cLxhqsf0/teamBg.png')`,
         }}
       >
-        <div className="max-w-xl mx-auto text-center space-y-2 relative -top-[50px]">
-          <h1 className="text-4xl font-semibold text-white">Team Member</h1>
+        <div className='mx-6'>
+
+        <div className="max-w-xl mx-auto text-center space-y-2  relative -top-[50px]">
+          <h1 className="text-3xl md:text-4xl font-semibold text-white">Team Member</h1>
           <p className="text-white">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius sed
             pharetra dictum neque massa congue
           </p>
         </div>
+        </div>
       </div>
 
       <div className=" max-w-5xl mx-auto relative -top-[140px]">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mx-6">
           <div>
             <div className=" shadow-lg">
               <Image

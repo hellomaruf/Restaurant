@@ -44,7 +44,7 @@ function BestSellerDishes() {
 
   return (
     <div className="mt-28 max-w-5xl mx-auto">
-      <div className="max-w-2xl mx-auto space-y-2 mx-6">
+      <div className="max-w-2xl mx-auto space-y-2 px-6">
         <h1 className="text-3xl md:text-4xl font-semibold text-center">
           Our best Seller Dishes
         </h1>
@@ -69,13 +69,13 @@ function BestSellerDishes() {
             <div className="p-4 py-6">
               <div className="flex justify-between items-center">
                 <h3 className="text-[16px] lg:text-[20px] font-medium">{item?.disheName}</h3>
-                <button className="bg-[#F03328]  btn text-sm text-white rounded-full px-4">
+                <button className="bg-[#F03328] hover:bg-[#F03328] btn text-sm text-white rounded-full px-4">
                   Buy Now
                 </button>
               </div>
               <div className="flex items-center justify-between mt-4">
                 <Rate
-                  className="text-lg text-[#FF9E0C]"
+                  className="text-base md:text-lg text-[#FF9E0C]"
                   disabled
                   defaultValue={item?.rating}
                 />

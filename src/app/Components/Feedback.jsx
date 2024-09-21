@@ -111,7 +111,7 @@ function Feedback() {
             alt="Description of image"
             width={500}
             height={200}
-            className="pb-2 w-full"
+            className=" w-full"
           />
         </div>
       </div>
