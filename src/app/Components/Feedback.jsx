@@ -8,9 +8,9 @@ import { Autoplay } from "swiper/modules";
 
 function Feedback() {
   return (
-    <div className="max-w-5xl mx-auto mt-28">
-      <div className="grid grid-cols-7 gap-6 justify-between items-center">
-        <div data-aos="fade-right" className="col-span-4 space-y-4">
+    <div className="max-w-5xl mx-auto mt-28  mb-8">
+      <div className="grid grid-cols-1 lg:grid-cols-7 gap-6 justify-between mx-6 items-center">
+        <div data-aos="fade-right" className="col-span-1 lg:col-span-4 space-y-4 lg:order-1 order-2">
           <h1 className="text-4xl font-semibold">Customer Feedback</h1>
           <Swiper
             autoplay={{
@@ -105,13 +105,13 @@ function Feedback() {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div data-aos="fade-up"  className="col-span-3">
+        <div data-aos="fade-up"  className="lg:col-span-3 col-span-1 lg:order-1 order-1">
           <Image
             src={feedbackImg}
             alt="Description of image"
             width={500}
             height={200}
-            className="pb-2"
+            className="pb-2 w-full"
           />
         </div>
       </div>

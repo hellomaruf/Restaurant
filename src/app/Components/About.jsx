@@ -7,8 +7,8 @@ import { FiPlay } from "react-icons/fi";
 function About() {
   return (
     <div className="max-w-5xl mx-auto mt-8">
-      <div className="grid grid-cols-2 gap-12 items-center">
-        <div data-aos="fade-right" className="">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mx-6">
+        <div data-aos="fade-right" className="lg:order-1 order-2">
           <div>
             <h6 className="text-[#A52A2A] text-[18px]">PIZZA DELIVERY</h6>
             <h1 className="text-4xl font-semibold my-2">Get Started Today!</h1>
@@ -64,7 +64,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div data-aos="fade-left" className="">
+        <div data-aos="fade-left" className="lg:order-1 order-1">
           <div className="">
             <h5 className="text-[#A52A2A]">About us ____</h5>
             <h1 className="text-4xl font-semibold my-2">

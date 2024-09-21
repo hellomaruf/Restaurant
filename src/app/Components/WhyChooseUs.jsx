@@ -8,19 +8,19 @@ import chooseImg3 from "../assets/chooseImg3.png";
 function WhyChooseUs() {
   return (
     <div className="max-w-5xl mx-auto mt-28">
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 mx-6">
         <div data-aos="fade-right" className="">
           <Image
             src={leftImg}
             alt="Description of image"
             width={500}
             height={200}
-            className="pb-2"
+            className="pb-2 w-full "
           />
         </div>
         <div data-aos="fade-left" className="">
           <div className="">
-            <h1 className="text-4xl font-semibold">Why People Choose us?</h1>
+            <h1 className="text-3xl md:text-4xl font-semibold">Why People Choose us?</h1>
           </div>
           <div className=" mt-10 space-y-3">
             <div className="flex items-center gap-2 p-4 rounded-xl shadow">
